@@ -1,7 +1,9 @@
-##Browser Detection Script (BDS)
+#Browser Detection Script (BDS)
 
-#Description:
+##Description:
 coming soon
 
-#Nightly Build
+##Nightly Build
+
+###### 0.1
 * print browser name and version
