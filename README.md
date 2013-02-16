@@ -1,4 +1,7 @@
-Browser-Detection-Script
-========================
+##Browser Detection Script (BDS)
 
-Detects your Browser Client.
+#Description:
+coming soon
+
+#Nightly Build
+* print browser name and version
