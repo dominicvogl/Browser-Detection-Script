@@ -8,7 +8,7 @@
 	
 		<meta charset="utf-8">	
 		
-		<title>Template Name</title>
+		<title>Detecting your Browser Client</title>
 		
 		<!-- Insert Favicons -->
 		<link rel="shortcut icon" href="images/favicon.ico" />
@@ -16,15 +16,25 @@
 		
 		<!-- Insert CSS -->
 		<link href="css/global.css" type="text/css" rel="stylesheet" media="all" />
-		
-		<!-- Insert Javascript -->
-		<script src="js/init.js" type="text/javascript"></script>
 	
 	</head>
 	
 	<body>
 	
-		<p>Silence is golden!</p>
+		<?php
+			require_once('functions/brDec_function.php');	
+			
+			/*echo '<div class="head">';
+				echo $browser['browser'];
+			echo '</div>';
+			*/
+			
+			echo(brDec_Outp_Container());
+		
+			
+			
+			
+		?>
 	
 	</body>
 	
